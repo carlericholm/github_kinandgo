@@ -1,2 +1,2 @@
-# github_kinandgo
-physiotherapy website
+# github_KINANDGO
+KIN&amp;GO website

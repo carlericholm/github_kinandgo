@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Index</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel='stylesheet' type='text/css' media='screen' href='css/index.css'>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="shortcut icon" type="image/png" href="img/kinangoLogo.png" />
+
+</head>
+
+<body>
+  <% include header%>
+  
+  <div class="image_logo">
+      <img src="img/kinangoLogo.png" id="kinandgoLogo">
+  </div>
+  <div class="fullscreen-bg">
+    <video loop autoplay class="fullscreen-bg__video" id="videoMute" muted poster="img/fred.jpg">
+        <source src="img/kinandgo.mp4" type="video/mp4">
+    </video>
+</div>
+<div id="audio_container">
+    <img src="img/audio-speaker-off.png" id="speakerOff">
+</div>
+</body>
+
+<script>
+  var audio = document.getElementById('audio_container');
+  audio.addEventListener('click', function(e) {
+    if (e.target.id == "speakerOff") {
+      e.target.src = 'img/audio-speaker-on.png';
+      e.target.id = 'speakerOn';
+      document.getElementById("videoMute").muted = false;
+
+    }
+    else {
+      e.target.src = 'img/audio-speaker-off.png';
+      e.target.id = 'speakerOff';
+      document.getElementById("videoMute").muted = true;
+    }
+  })
+
+</script>
+
+</html>
