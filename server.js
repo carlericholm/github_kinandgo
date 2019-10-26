@@ -51,9 +51,9 @@ app.get('/contact', (req, res) => {
     res.render("contact");
 })
 
-// app.use((req, res, next) => {
-//     res.redirect('/');
-// })
+app.use((req, res, next) => {
+    res.redirect('/');
+})
 
 
 const httpServer = http.createServer(function (req, res) {
