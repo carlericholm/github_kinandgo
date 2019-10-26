@@ -56,7 +56,10 @@ app.get('/contact', (req, res) => {
 // })
 
 
-const httpServer = http.createServer(app);
+const httpServer = http.createServer(function (req, res) {
+	res.writeHead(301, { "Location": "https://" + req.headers['host'] + req.url });
+	res.end();
+});
 const httpsServer = https.createServer(credentials, app);
 
 httpServer.listen(80, () => {
@@ -66,7 +69,6 @@ httpServer.listen(80, () => {
 httpsServer.listen(443, () => {
 	console.log('HTTPS Server running on port 443');
 });
-
 
 
 
