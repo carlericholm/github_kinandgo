@@ -9,9 +9,9 @@ const app = express();
 // const PORT = 80;
 
 // Certificate
-const privateKey = fs.readFileSync('/etc/letsencrypt/live/kinandgo.be/privkey.pem', 'utf8');
-const certificate = fs.readFileSync('/etc/letsencrypt/live/kinandgo.be/cert.pem', 'utf8');
-const ca = fs.readFileSync('/etc/letsencrypt/live/kinandgo.be/chain.pem', 'utf8');
+const privateKey = fs.readFileSync('/etc/letsencrypt/live/www.kinandgo.be/privkey.pem', 'utf8');
+const certificate = fs.readFileSync('/etc/letsencrypt/live/www.kinandgo.be/cert.pem', 'utf8');
+const ca = fs.readFileSync('/etc/letsencrypt/live/www.kinandgo.be/chain.pem', 'utf8');
 
 
 
