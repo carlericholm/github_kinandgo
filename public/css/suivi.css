@@ -282,6 +282,10 @@ html, body {
         background-attachment: fixed;
         position: absolute;
     }
+
+    .left_container {
+        display: none;
+    }
     
     .infos_container {
         margin-top: 20%;

@@ -238,7 +238,9 @@ html, body {
         position: absolute;
         width: 100%;
     }
-    
+    .left_container {
+        display: none;
+    }
     .infos_container {
         margin-top: 20%;
     }

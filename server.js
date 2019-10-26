@@ -6,9 +6,9 @@ const https = require('https');
 
 const app = express();
 
-// const PORT = 80;
+// const PORT = 8080;
 
-// Certificate
+Certificate
 const privateKey = fs.readFileSync('/etc/letsencrypt/live/www.kinandgo.be/privkey.pem', 'utf8');
 const certificate = fs.readFileSync('/etc/letsencrypt/live/www.kinandgo.be/cert.pem', 'utf8');
 const ca = fs.readFileSync('/etc/letsencrypt/live/www.kinandgo.be/chain.pem', 'utf8');
