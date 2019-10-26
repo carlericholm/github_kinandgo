@@ -154,7 +154,7 @@ html, body {
 
 .container_images {
     box-shadow: 5px 10px 8px #888888;
-    margin: 50px;
+    margin-top: 50px;
     display: flex;
     justify-content: space-around;
 }
@@ -162,7 +162,6 @@ html, body {
 
 
 .image {
-    /* width: 100%; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -187,7 +186,6 @@ html, body {
     letter-spacing: 1px;
     font-size: 0.8em;
     text-align: justify;
-    padding: 20px;
 }
 
 
@@ -273,20 +271,10 @@ html, body {
         margin: auto;
     }
     .container_images {
-        display: block
+        display: block;
+        padding: 25px;
     }
 }
-
-/* @media screen and (max-width: 500px) {
-
-    .container_images {
-        margin: 10px;
-    }
-    .text_image {
-        padding: 20px;
-    }
-   
-} */
 
 
 @media screen and (min-width: 1000px) {
