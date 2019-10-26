@@ -1,6 +1,19 @@
+
+
+// Configure & Run the http server
+const app = express();
+
+
+
+
+
+
+
+
 const express = require('express');
 
 const app = express();
+app.use(express.static(__dirname, { dotfiles: 'allow' } ));
 const PORT = 80;
 
 app.set('view engine', 'ejs');
@@ -32,5 +45,5 @@ app.use((req, res, next) => {
 })
 
 app.listen(PORT, () => {
-    console.log("Server listenning on port 8080");
+    console.log("Server listenning on port 80");
 })
