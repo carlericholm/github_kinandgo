@@ -213,10 +213,10 @@ h2 {
         overflow-x: hidden;
         min-height: 100%;
         background-image: linear-gradient(to bottom right, rgb(10, 168, 125), rgb(182, 217, 127));
-        background-size: auto;
+        /* background-size: auto;
         background-repeat: no-repeat;
         background-attachment: fixed;
-        position: absolute;
+        position: absolute; */
     }
 
     .left_container {
