@@ -230,11 +230,6 @@ html, body {
         overflow-x: hidden;
         min-height: 100%;
         background-image: linear-gradient(to bottom right, rgb(137, 173, 219), rgb(251, 223, 218));
-        /* background-size: auto;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        position: absolute;
-        width: 100%; */
     }
     .left_container {
         display: none;

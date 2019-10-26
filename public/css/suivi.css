@@ -277,10 +277,6 @@ html, body {
         overflow-x: hidden;
         min-height: 100%;
         background-image: linear-gradient(to bottom right, rgb(29, 165, 221), rgb(182, 208, 216));
-        /* background-size: auto;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        position: absolute; */
     }
 
     .left_container {
@@ -324,8 +320,8 @@ html, body {
         display: block
     }
     .image img{
-        width: 50%;
-        height: 50%;
+        width: 100%;
+        height: 100%;
     }
 }
 
