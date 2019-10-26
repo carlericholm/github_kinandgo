@@ -29,9 +29,9 @@ app.get('/contact', (req, res) => {
     res.render("contact");
 })
 
-app.use((req, res, next) => {
-    res.redirect('/');
-})
+// app.use((req, res, next) => {
+//     res.redirect('/');
+// })
 
 app.listen(PORT, () => {
     console.log("Server listenning on port 80");
