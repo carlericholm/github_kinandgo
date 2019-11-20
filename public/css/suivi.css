@@ -199,7 +199,8 @@ html, body {
 
 .image {
     /* border: 1px solid blue; */
-    width: 100%;
+    width: 60%;
+    height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
